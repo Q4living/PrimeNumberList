@@ -10,6 +10,7 @@ prime_list_brutal <- function(n){
   print(paste(format(Sys.time() - start, format = "%s"), " time spent"))
 }
 
+#Eratosthenes Sieve method
 prime_list <- function(n){
   start <- Sys.time()
   p <- c(2) #Begin the list with 2
